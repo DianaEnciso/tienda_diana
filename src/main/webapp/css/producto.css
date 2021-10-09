@@ -1,0 +1,79 @@
+@charset "utf-8";
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+@font-face{font-family:Roboto;
+src:url("../fonts/Roboto-Regular.ttf");
+}
+
+.producto 
+{
+	background-image: url("../imgs/background_productos.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 0 400px 0 20px;
+}
+
+.formulario h2 {
+	margin-bottom: 5px;
+	margin-top: -40px;
+	font-size: 35px;
+	font-weight: bold;
+	border-bottom: 2px solid #D3D3D3;
+	margin-right: 35px;
+}
+
+.form-archivo
+{
+	width: 17%;
+	display: flexbox;
+	height: 27px;
+	flex-direction: column;
+	position: relative;
+	bottom: 16em;
+	left: 70em;
+	
+}
+
+[type="file"]
+{
+	margin-bottom: 10px;
+	color: rgb(4, 4, 4);
+	font-size: 17px;
+	font-weight: bold;
+	margin-right: 60px;
+}
+
+[type="file"]
+{
+	margin-bottom: 10px;
+	color: rgb(4, 4, 4);
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 60px;
+}
+
+#submarch
+{
+	margin-bottom: 10px;
+	color: rgb(4, 4, 4);
+	font-size: 15px;
+	margin-right: 60px;
+}
